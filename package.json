@@ -1,0 +1,34 @@
+{
+  "name": "vue-cognito",
+  "version": "0.1.0",
+  "description": "Promise based Vue plugin for AWS Cognito authentication",
+  "main": "vue-cognito.js",
+  "scripts": {
+    "lint": "standard vue-cognito.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwtechnologies/vue-cognito.git"
+  },
+  "keywords": [
+    "VueJs",
+    "AWS",
+    "cognito",
+    "plugin",
+    "authentication"
+  ],
+  "author": "toby.ryuk@danielwellington.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwtechnologies/vue-cognito/issues"
+  },
+  "homepage": "https://github.com/dwtechnologies/vue-cognito",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.28.0",
+    "aws-sdk": "^2.164.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
